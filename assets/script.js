@@ -6,5 +6,5 @@ function calculate(){
     time = document.getElementById('time').value;
 
     answer = document.getElementById('answer');
-    answer.innerHTML = "the interest is" + (principal * time * rate / 100);
+    answer.innerHTML = "The interest is" + " " + (principal * time * rate / 100);
 }

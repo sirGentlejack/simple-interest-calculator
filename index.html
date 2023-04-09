@@ -9,20 +9,21 @@
 </head>
 <body>
     <div class="main">
-        <h1>Calculate your simple interest</h1>
+        <h1>Calculate your Simple Interest</h1>
         <div class="writeup">
-            <h3>we are your reliable interest calculator</h3>
+            <h3>We are your reliable interest calculator</h3>
             <a href="#calculator"><button> calculate now</button></a>
         </div>
     </div>
     <hr>
     <div id="calculator">
         <h3>Interest Calculator</h3>
-        <form action="">
+        <form >
         <input type="number" name="principal" placeholder="Principal" id="principal"><br>
         <input type="number" name="rate" placeholder="Rate" id="rate"><br>
         <input type="number" name="Time/Period" placeholder="Time/ Period" id="time"><br>
-        <button onclick="calculate()">Calculate</button>
+        <button type="button" onclick="calculate()">Calculate</button>
+        <button type="reset">clear</button>
         </form>
         <p id="answer" style="font-size: 30px;"></p>
     </div>
